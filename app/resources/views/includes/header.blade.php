@@ -15,8 +15,7 @@
 
 <header>
     <nav>
-        <a href="{{ url('/index') }}">Home</a>
-        <!-- <a href="/session">Session</a> -->
+        <a href="{{ url('/') }}">Home</a>
         <a href="{{ url('/dice') }}">Dice</a>
         <a href="{{ url('/game21') }}">Game21</a>
         <a href="{{ url('/yatzy') }}">Yatzy</a>

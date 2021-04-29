@@ -7,7 +7,7 @@
 declare(strict_types=1);
 
 $classes = $classes ?? [];
- ?>
+?>
 
 
 @include('includes.header')
