@@ -7,7 +7,6 @@ use App\Http\Controllers\YatzyController;
 use App\Http\Controllers\Game21Controller;
 use App\Http\Controllers\DiceController;
 
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,11 +18,11 @@ use App\Http\Controllers\DiceController;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
-Route::get('/index', [IndexController::class, 'index']);
+Route::get('/', [IndexController::class, 'index']);
 
 Route::prefix('dice')->group(function () {
     Route::get('/', [DiceController::class, 'index'])->name('dice');
