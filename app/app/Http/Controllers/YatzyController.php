@@ -15,7 +15,7 @@ class YatzyController extends Controller
     /**
      * Display a message.
      *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\View\View
      */
     public function index()
     {
@@ -32,10 +32,9 @@ class YatzyController extends Controller
     /**
      * Store a new user.
      *
-     * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\RedirectResponse
      */
-    public function throw(Request $request)
+    public function throw()
     {
         session("yatzy")->moveDice();
         // session("yatzy")->showPost();
@@ -46,7 +45,7 @@ class YatzyController extends Controller
     /**
      * Display a message.
      *
-     * @return Illuminate\Routing\RedirectResponse
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function newGame()
     {
@@ -59,7 +58,7 @@ class YatzyController extends Controller
     /**
      * Display a message.
      *
-     * @return Illuminate\Routing\RedirectResponse
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function newRound()
     {

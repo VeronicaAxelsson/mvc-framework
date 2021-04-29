@@ -15,13 +15,18 @@ class DiceController extends Controller
     /**
      * Create diceHand with given dice
      *
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\View\View
      */
     public function index()
     {
+        $data = [];
+        $diceHand = "";
+
         if (session()->missing('dice')) {
             $diceHand = new DiceHand();
-        } else {
+        }
+
+        if (session()->exists('dice')) {
             $dice = intval(session()->get('dice'));
             $diceHand = new DiceHand($dice);
         }
@@ -34,12 +39,12 @@ class DiceController extends Controller
     /**
      * Roll dice
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function roll(Request $request)
+    public function roll()
     {
-        $dice = $request->dice;
+        // $dice = $request->dice;
+        $dice = $_POST["dice"];
         return redirect()->route('dice')->with('dice', $dice);
     }
 }

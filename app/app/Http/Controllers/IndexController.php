@@ -15,9 +15,9 @@ class IndexController extends Controller
      * Display a message.
      *
      * @param  string  $message
-     * @return \Illuminate\View\View
+     * @return \Illuminate\Contracts\View\View
      */
-    public function index($message=null)
+    public function index($message = null)
     {
 
         return view('index', [
