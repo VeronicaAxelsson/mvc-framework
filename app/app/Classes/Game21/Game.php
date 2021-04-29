@@ -3,6 +3,7 @@
 namespace App\Classes\Game21;
 
 use App\Classes\Dice\DiceHand;
+
 /**
  * Dice class
  */
