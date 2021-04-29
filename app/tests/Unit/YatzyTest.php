@@ -5,6 +5,7 @@ namespace Tests\Unit;
 use Tests\TestCase;
 use ReflectionClass;
 use App\Classes\Yatzy\Game;
+
 /**
  * Test cases for class Game for Yatzy
  */

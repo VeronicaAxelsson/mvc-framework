@@ -21,7 +21,6 @@ class ControllerYatzyTest extends TestCase
      */
     public function setUp(): void
     {
-        // session_start();
         parent::setUp();
         $this->controller = new YatzyController();
         $this->assertInstanceOf("App\Http\Controllers\YatzyController", $this->controller);
@@ -44,10 +43,9 @@ class ControllerYatzyTest extends TestCase
     */
     public function testControllerThrowAction()
     {
-        $request = \Request::create('/throw', 'POST');
         $this->withSession(['yatzy' => new Game()]);
         $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->throw($request);
+        $res = $this->controller->throw();
 
         /* Test status code*/
         $this->assertEquals(302, $res->getStatusCode());
@@ -61,10 +59,9 @@ class ControllerYatzyTest extends TestCase
     */
     public function testControllerNewGameAction()
     {
-        $request = \Request::create('/newgame', 'POST');
         $this->withSession(['yatzy' => new Game()]);
         $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->newGame($request);
+        $res = $this->controller->newGame();
 
         /* Test status code*/
         $this->assertEquals(302, $res->getStatusCode());
@@ -79,11 +76,10 @@ class ControllerYatzyTest extends TestCase
     public function testControllerNewRoundAction()
     {
         $_POST['diceValue'] = 1;
-        $request = \Request::create('POST', '/newround');
 
         $this->withSession(['yatzy' => new Game()]);
         $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->newRound($request);
+        $res = $this->controller->newRound();
 
         /* Test status code*/
         $this->assertEquals(302, $res->getStatusCode());

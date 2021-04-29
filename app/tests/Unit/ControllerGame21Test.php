@@ -9,6 +9,7 @@ use ReflectionClass;
 use Psr\Http\Message\ResponseInterface;
 use App\Http\Controllers\Game21Controller;
 use App\Classes\Game21\Game;
+use Request;
 
 /**
  * Test cases for the controller Game21.
@@ -32,7 +33,8 @@ class ControllerGame21Test extends TestCase
      */
     public function testControllerIndexAction()
     {
-        $exp ="\Illuminate\View\View";;
+        $exp = "\Illuminate\View\View";
+        ;
         $res = $this->controller->index();
         $this->assertInstanceOf($exp, $res);
     }
@@ -44,10 +46,9 @@ class ControllerGame21Test extends TestCase
     public function testControllerRollAction()
     {
         $_POST["die"] = 1;
-        $request = \Request::create('/roll', 'POST');
         $this->withSession(['game21' => new Game()]);
         $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->roll($request);
+        $res = $this->controller->roll();
 
         /* Test status code*/
         $this->assertEquals(302, $res->getStatusCode());
@@ -61,10 +62,9 @@ class ControllerGame21Test extends TestCase
      */
     public function testControllerEndAction()
     {
-        $request = \Request::create('/end', 'POST');
         $this->withSession(['game21' => new Game()]);
         $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->end($request);
+        $res = $this->controller->end();
 
         /* Test status code*/
         $this->assertEquals(302, $res->getStatusCode());
@@ -78,10 +78,9 @@ class ControllerGame21Test extends TestCase
      */
     public function testControllerResetAction()
     {
-        $request = \Request::create('/reset', 'POST');
         $this->withSession(['game21' => new Game()]);
         $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->reset($request);
+        $res = $this->controller->reset();
 
         /* Test status code*/
         $this->assertEquals(302, $res->getStatusCode());
@@ -95,10 +94,9 @@ class ControllerGame21Test extends TestCase
      */
     public function testControllerNewRoundAction()
     {
-        $request = \Request::create('/newround', 'POST');
         $this->withSession(['game21' => new Game()]);
         $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->newRound($request);
+        $res = $this->controller->newRound();
 
         /* Test status code*/
         $this->assertEquals(302, $res->getStatusCode());
