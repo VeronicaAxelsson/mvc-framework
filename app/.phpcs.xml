@@ -9,8 +9,14 @@
     <exclude-pattern>cache</exclude-pattern>
     <exclude-pattern>doc</exclude-pattern>
     <!-- <exclude-pattern>test/config.php</exclude-pattern> -->
-    <exclude-pattern>theme</exclude-pattern>
+    <exclude-pattern>public</exclude-pattern>
     <exclude-pattern>vendor</exclude-pattern>
+    <exclude-pattern>node_modules</exclude-pattern>
+
+
+
+
+
 
     <arg name="encoding" value="utf-8"/>
     <arg name="warning-severity" value="0"/>
