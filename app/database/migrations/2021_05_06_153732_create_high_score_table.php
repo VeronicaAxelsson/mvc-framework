@@ -1,4 +1,5 @@
 <?php
+
 namespace App\Database\Migrations;
 
 use Illuminate\Database\Migrations\Migration;

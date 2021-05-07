@@ -67,4 +67,4 @@ class BookController extends Controller
 //         $book->where('author', '=', 'J.K Rowling')->delete();
 //         return view('/book');
 //     }
-// }
+}

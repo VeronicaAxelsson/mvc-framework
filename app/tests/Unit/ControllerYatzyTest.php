@@ -53,21 +53,20 @@ class ControllerYatzyTest extends TestCase
         $this->assertInstanceOf($exp, $res);
     }
 
-    /**
-    *  @runInSeparateProcess
-    * Check that the newGame action returns a response and right header.
-    */
-    public function testControllerNewGameAction()
-    {
-        $this->withSession(['yatzy' => new Game()]);
-        $exp = "\Illuminate\Http\RedirectResponse";
-        $res = $this->controller->newGame();
-
-        /* Test status code*/
-        $this->assertEquals(302, $res->getStatusCode());
-        /* Test response*/
-        $this->assertInstanceOf($exp, $res);
-    }
+    // /**
+    // *  @runInSeparateProcess
+    // * Check that the newGame action returns a response and right header.
+    // */
+    // public function testControllerNewGameAction()
+    // {
+    //     $this->withSession(['yatzy' => new Game()]);
+    //     $exp = "\Illuminate\Http\RedirectResponse";
+    //     $res = $this->controller->newGame();
+    //     /* Test status code*/
+    //     $this->assertEquals(302, $res->getStatusCode());
+    //     /* Test response*/
+    //     $this->assertInstanceOf($exp, $res);
+    // }
 
     /**
     *  @runInSeparateProcess
