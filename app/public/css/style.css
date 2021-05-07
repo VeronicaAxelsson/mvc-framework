@@ -179,6 +179,10 @@ table button {
     font-size: 28px;
 }
 
+.no-frame {
+    border: none;
+}
+
 /**
  * CSS sprite for a dice with six faces.
  */
