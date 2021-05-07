@@ -6,6 +6,8 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\YatzyController;
 use App\Http\Controllers\Game21Controller;
 use App\Http\Controllers\DiceController;
+use App\Http\Controllers\BookController;
+use App\Http\Controllers\HighScoreController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +45,10 @@ Route::prefix('game21')-> group(function () {
     Route::post('/reset', [Game21Controller::class, 'reset']);
     Route::post('/newround', [Game21Controller::class, 'newRound']);
 });
+
+Route::get('/book', [BookController::class, 'index']);
+Route::get('/book/add', [BookController::class, 'addBook']);
+Route::get('/book/delete', [BookController::class, 'deleteBook']);
+// Route::get('/book/all', [BookController::class, 'allBooks']);
+
+Route::get('/highscore', [HighScoreController::class, 'index']);
