@@ -47,8 +47,8 @@ Route::prefix('game21')-> group(function () {
 });
 
 Route::get('/book', [BookController::class, 'index']);
-Route::get('/book/add', [BookController::class, 'addBook']);
-Route::get('/book/delete', [BookController::class, 'deleteBook']);
+// Route::get('/book/add', [BookController::class, 'addBook']);
+// Route::get('/book/delete', [BookController::class, 'deleteBook']);
 // Route::get('/book/all', [BookController::class, 'allBooks']);
 
 Route::get('/highscore', [HighScoreController::class, 'index']);
