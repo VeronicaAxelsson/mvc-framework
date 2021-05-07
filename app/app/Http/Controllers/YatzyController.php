@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use App\Classes\Yatzy\Game;
+use App\Models\HighScore;
 use Illuminate\Http\Request;
 
 /**
@@ -49,6 +50,11 @@ class YatzyController extends Controller
      */
     public function newGame()
     {
+        $data = session('yatzy')->getData();
+        $highScore = new HighScore();
+        $highScore->score = $data['totalScore'];
+        $highScore->save();
+
         session()->put('yatzy', new Game());
         session()->put('yatzySum', 0);
 
@@ -62,6 +68,7 @@ class YatzyController extends Controller
      */
     public function newRound()
     {
+
         session("yatzy")->sumRound();
         session("yatzy")->newRound();
 

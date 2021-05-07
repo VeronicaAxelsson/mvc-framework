@@ -132,9 +132,11 @@ class Game
             $this->savedValues = [];
             $this->data["savedValues"] = $this->savedValues;
             $this->score["summa"] = session("yatzySum");
+            $this->data['totalScore'] = $this->score["summa"];
 
             if (session("yatzySum") >= 63) {
                 $this->score["bonus"] = 50;
+                $this->data['totalScore'] += 50;
             }
 
             $this->data["score"] = $this->score;
