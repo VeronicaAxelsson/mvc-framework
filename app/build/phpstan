@@ -1,10 +1,30 @@
- ------ ---------------------------------------------------------------------- 
- [32m Line [39m [32m app\Classes\Yatzy\Game.php                                           [39m 
- ------ ---------------------------------------------------------------------- 
-  69     Call to function is_int() with string will always evaluate to false.  
- ------ ---------------------------------------------------------------------- 
+ ------ --------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m app\Http\Controllers\BookController.php                                                                       [39m 
+ ------ --------------------------------------------------------------------------------------------------------------- 
+  36     Access to an undefined property App\Models\Book::$title.                                                       
+  37     Access to an undefined property App\Models\Book::$ISBN.                                                        
+  38     Access to an undefined property App\Models\Book::$author.                                                      
+  55     Method App\Http\Controllers\BookController::allBooks() should return object but returns array<string, array>.  
+  66     Call to an undefined method App\Models\Book::where().                                                          
+ ------ --------------------------------------------------------------------------------------------------------------- 
+
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m app\Http\Controllers\HighScoreController.php                                                                    [39m 
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+[39;49m  41     Method App\Http\Controllers\HighScoreController::allHighScores() should return object but returns array<string,[39;49m[39;49m  [39;49m
+[39;49m         [39;49marray>.                                                                                                          
+ ------ ----------------------------------------------------------------------------------------------------------------- 
+
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+ [32m Line [39m [32m app\Http\Controllers\YatzyController.php                                                                          [39m 
+ ------ ------------------------------------------------------------------------------------------------------------------- 
+[39;49m         ParseError (syntax error, unexpected '$this' (T_VARIABLE)) thrown while looking for class App\Classes\Yatzy\Game.[39;49m[39;49m  [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                 
+[39;49m  7      ParseError (syntax error, unexpected '$this' (T_VARIABLE)) thrown while looking for class App\Classes\Yatzy\Game.[39;49m[39;49m  [39;49m
+[39;49m         [39;49m💡 Learn more at https://phpstan.org/user-guide/discovering-symbols                                                 
+ ------ ------------------------------------------------------------------------------------------------------------------- 
 
 [37;41m                                                                                                                        [39;49m
-[37;41m [ERROR] Found 1 error                                                                                                  [39;49m
+[37;41m [ERROR] Found 8 errors                                                                                                 [39;49m
 [37;41m                                                                                                                        [39;49m
 
