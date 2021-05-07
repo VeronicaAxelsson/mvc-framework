@@ -1,91 +1,11 @@
 PHPUnit 9.5.4 by Sebastian Bergmann and contributors.
 
-........[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m.......................[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m[31;1mE[0m.                     45 / 45 (100%)
+............................................                      44 / 44 (100%)
 
-Time: 02:14.341, Memory: 38.00 MB
+Time: 02:39.634, Memory: 36.00 MB
 
-There were 13 errors:
+[30;42mOK (44 tests, 138 assertions)[0m
 
-1) Tests\Unit\ControllerYatzyTest::testControllerIndexAction
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
+Generating code coverage report in Clover XML format ... done [00:00.419]
 
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Http\Controllers\YatzyController.php:24
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\ControllerYatzyTest.php:36
-
-2) Tests\Unit\ControllerYatzyTest::testControllerThrowAction
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\ControllerYatzyTest.php:46
-
-3) Tests\Unit\ControllerYatzyTest::testControllerNewGameAction
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\ControllerYatzyTest.php:62
-
-4) Tests\Unit\ControllerYatzyTest::testControllerNewRoundAction
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\ControllerYatzyTest.php:80
-
-5) Tests\Unit\YatzyTest::testGameSetUpWithPlayGame
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-6) Tests\Unit\YatzyTest::testRollDice
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-7) Tests\Unit\YatzyTest::testMoveDiceWithPresetPostData
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-8) Tests\Unit\YatzyTest::testMoveDiceFromValuesToSavedValuesWithNoThrowsLeft
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-9) Tests\Unit\YatzyTest::testMoveDiceFromValuesToSavedValuesWithNoValuesLeft
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-10) Tests\Unit\YatzyTest::testSumRound
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-11) Tests\Unit\YatzyTest::testNewRoundWithRoundsLeft
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-12) Tests\Unit\YatzyTest::testNewRoundWithNoRoundsLeft
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-13) Tests\Unit\YatzyTest::testNewRoundWithNoRoundsLeftAndBonus
-ParseError: syntax error, unexpected '$this' (T_VARIABLE)
-
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\app\Classes\Yatzy\Game.php:137
-C:\Users\Admin\dbwebb-kurser\mvc\me\orm\app\tests\Unit\YatzyTest.php:20
-
-[37;41mERRORS![0m
-[37;41mTests: 45[0m[37;41m, Assertions: 101[0m[37;41m, Errors: 13[0m[37;41m.[0m
-
-Generating code coverage report in Clover XML format ... syntax error, unexpected '$this' (T_VARIABLE)
+Generating code coverage report in HTML format ... done [00:01.082]
