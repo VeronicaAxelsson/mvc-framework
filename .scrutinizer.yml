@@ -8,6 +8,7 @@ filter:
         - "build/*"
         - "cache/*"
         - "database/*"
+        - "myreport.html"
 
 build:
     project_setup:
