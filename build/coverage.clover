@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1620648184">
-  <project timestamp="1620648184">
+<coverage generated="1620682087">
+  <project timestamp="1620682087">
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Classes\Dice\Dice.php">
       <class name="App\Classes\Dice\Dice" namespace="global">
         <metrics complexity="4" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="6" elements="10" coveredelements="10"/>
@@ -108,14 +108,14 @@
       <line num="126" type="stmt" count="1"/>
       <line num="127" type="stmt" count="1"/>
       <line num="128" type="stmt" count="5"/>
-      <line num="129" type="stmt" count="3"/>
-      <line num="130" type="stmt" count="2"/>
-      <line num="131" type="stmt" count="2"/>
+      <line num="129" type="stmt" count="2"/>
+      <line num="130" type="stmt" count="1"/>
+      <line num="131" type="stmt" count="1"/>
       <line num="133" type="stmt" count="1"/>
-      <line num="134" type="stmt" count="3"/>
-      <line num="136" type="stmt" count="2"/>
-      <line num="137" type="stmt" count="1"/>
-      <line num="138" type="stmt" count="1"/>
+      <line num="134" type="stmt" count="2"/>
+      <line num="136" type="stmt" count="3"/>
+      <line num="137" type="stmt" count="2"/>
+      <line num="138" type="stmt" count="2"/>
       <line num="140" type="stmt" count="1"/>
       <line num="141" type="stmt" count="1"/>
       <line num="143" type="stmt" count="8"/>
@@ -199,10 +199,10 @@
       </class>
       <line num="25" type="method" name="schedule" visibility="protected" complexity="1" crap="2" count="0"/>
       <line num="28" type="stmt" count="0"/>
-      <line num="35" type="method" name="commands" visibility="protected" complexity="1" crap="1" count="32"/>
-      <line num="37" type="stmt" count="32"/>
-      <line num="39" type="stmt" count="32"/>
-      <line num="40" type="stmt" count="32"/>
+      <line num="35" type="method" name="commands" visibility="protected" complexity="1" crap="1" count="31"/>
+      <line num="37" type="stmt" count="31"/>
+      <line num="39" type="stmt" count="31"/>
+      <line num="40" type="stmt" count="31"/>
       <metrics loc="41" ncloc="25" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
     </file>
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Exceptions\Handler.php">
@@ -310,13 +310,13 @@
     </file>
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Http\Controllers\IndexController.php">
       <class name="App\Http\Controllers\IndexController" namespace="global">
-        <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        <metrics complexity="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
       </class>
-      <line num="20" type="method" name="index" visibility="public" complexity="1" crap="1" count="1"/>
-      <line num="23" type="stmt" count="1"/>
-      <line num="24" type="stmt" count="1"/>
-      <line num="25" type="stmt" count="1"/>
-      <metrics loc="28" ncloc="19" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      <line num="20" type="method" name="index" visibility="public" complexity="1" crap="2" count="0"/>
+      <line num="23" type="stmt" count="0"/>
+      <line num="24" type="stmt" count="0"/>
+      <line num="25" type="stmt" count="0"/>
+      <metrics loc="28" ncloc="19" classes="1" methods="1" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="0" elements="4" coveredelements="0"/>
     </file>
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Http\Controllers\YatzyController.php">
       <class name="App\Http\Controllers\YatzyController" namespace="global">
@@ -423,29 +423,23 @@
       </class>
       <metrics loc="30" ncloc="14" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
-    <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Models\User.php">
-      <class name="App\Models\User" namespace="global">
-        <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-      </class>
-      <metrics loc="44" ncloc="29" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
-    </file>
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Providers\AppServiceProvider.php">
       <class name="App\Providers\AppServiceProvider" namespace="global">
         <metrics complexity="2" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
       </class>
-      <line num="14" type="method" name="register" visibility="public" complexity="1" crap="1" count="32"/>
-      <line num="17" type="stmt" count="32"/>
-      <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="32"/>
-      <line num="27" type="stmt" count="32"/>
+      <line num="14" type="method" name="register" visibility="public" complexity="1" crap="1" count="31"/>
+      <line num="17" type="stmt" count="31"/>
+      <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="31"/>
+      <line num="27" type="stmt" count="31"/>
       <metrics loc="28" ncloc="18" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="4" coveredelements="4"/>
     </file>
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Providers\AuthServiceProvider.php">
       <class name="App\Providers\AuthServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
       </class>
-      <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="32"/>
-      <line num="26" type="stmt" count="32"/>
-      <line num="29" type="stmt" count="32"/>
+      <line num="24" type="method" name="boot" visibility="public" complexity="1" crap="1" count="31"/>
+      <line num="26" type="stmt" count="31"/>
+      <line num="29" type="stmt" count="31"/>
       <metrics loc="30" ncloc="20" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="2" elements="3" coveredelements="3"/>
     </file>
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Providers\BroadcastServiceProvider.php">
@@ -462,33 +456,33 @@
       <class name="App\Providers\EventServiceProvider" namespace="global">
         <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
       </class>
-      <line num="28" type="method" name="boot" visibility="public" complexity="1" crap="1" count="32"/>
-      <line num="31" type="stmt" count="32"/>
+      <line num="28" type="method" name="boot" visibility="public" complexity="1" crap="1" count="31"/>
+      <line num="31" type="stmt" count="31"/>
       <metrics loc="32" ncloc="22" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
     </file>
     <file name="C:\Users\Admin\dbwebb-kurser\mvc\me\ci\app\Providers\RouteServiceProvider.php">
       <class name="App\Providers\RouteServiceProvider" namespace="global">
         <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="14" elements="17" coveredelements="15"/>
       </class>
-      <line num="36" type="method" name="boot" visibility="public" complexity="1" crap="1" count="32"/>
-      <line num="38" type="stmt" count="32"/>
-      <line num="40" type="stmt" count="32"/>
-      <line num="41" type="stmt" count="32"/>
-      <line num="42" type="stmt" count="32"/>
-      <line num="43" type="stmt" count="32"/>
-      <line num="44" type="stmt" count="32"/>
-      <line num="46" type="stmt" count="32"/>
-      <line num="47" type="stmt" count="32"/>
-      <line num="48" type="stmt" count="32"/>
-      <line num="49" type="stmt" count="32"/>
-      <line num="50" type="stmt" count="32"/>
-      <line num="57" type="method" name="configureRateLimiting" visibility="protected" complexity="2" crap="2.06" count="32"/>
-      <line num="59" type="stmt" count="32"/>
+      <line num="36" type="method" name="boot" visibility="public" complexity="1" crap="1" count="31"/>
+      <line num="38" type="stmt" count="31"/>
+      <line num="40" type="stmt" count="31"/>
+      <line num="41" type="stmt" count="31"/>
+      <line num="42" type="stmt" count="31"/>
+      <line num="43" type="stmt" count="31"/>
+      <line num="44" type="stmt" count="31"/>
+      <line num="46" type="stmt" count="31"/>
+      <line num="47" type="stmt" count="31"/>
+      <line num="48" type="stmt" count="31"/>
+      <line num="49" type="stmt" count="31"/>
+      <line num="50" type="stmt" count="31"/>
+      <line num="57" type="method" name="configureRateLimiting" visibility="protected" complexity="2" crap="2.06" count="31"/>
+      <line num="59" type="stmt" count="31"/>
       <line num="60" type="stmt" count="0"/>
-      <line num="61" type="stmt" count="32"/>
-      <line num="62" type="stmt" count="32"/>
+      <line num="61" type="stmt" count="31"/>
+      <line num="62" type="stmt" count="31"/>
       <metrics loc="63" ncloc="38" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="15" coveredstatements="14" elements="17" coveredelements="15"/>
     </file>
-    <metrics files="31" loc="1439" ncloc="965" classes="21" methods="55" coveredmethods="42" conditionals="0" coveredconditionals="0" statements="247" coveredstatements="199" elements="302" coveredelements="241"/>
+    <metrics files="30" loc="1395" ncloc="936" classes="21" methods="55" coveredmethods="41" conditionals="0" coveredconditionals="0" statements="247" coveredstatements="196" elements="302" coveredelements="237"/>
   </project>
 </coverage>
