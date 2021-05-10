@@ -77,8 +77,8 @@ class Game
         }
 
         if (session("sumPlayer") >= 21) {
-            self::playComputer();
-            self::checkWinner();
+            $this->playComputer();
+            $this->checkWinner();
         }
     }
 
