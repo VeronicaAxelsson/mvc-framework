@@ -4,6 +4,7 @@
 <a href="https://travis-ci.org/VeronicaAxelsson/mvc_framework"><img src="https://travis-ci.org/VeronicaAxelsson/mvc_framework.svg" alt="Build Status"></a>
 <a href="https://scrutinizer-ci.com/g/VeronicaAxelsson/mvc-framework/"><img src="https://scrutinizer-ci.com/g/VeronicaAxelsson/mvc-framework/badges/quality-score.png?b=master" alt="Build Status"></a>
 <a href="https://scrutinizer-ci.com/g/VeronicaAxelsson/mvc-framework/"><img src="https://scrutinizer-ci.com/g/VeronicaAxelsson/mvc-framework/badges/build.png?b=master" alt="Build Status"></a>
+<a href="https://scrutinizer-ci.com/g/VeronicaAxelsson/mvc-framework/"><img src="https://scrutinizer-ci.com/g/VeronicaAxelsson/mvc-framework/badges/coverage.png?b=master" alt="Build Status"></a>
 <!-- <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a> -->
