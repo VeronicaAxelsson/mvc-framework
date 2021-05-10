@@ -2,7 +2,12 @@ imports:
     - php
 
 filter:
-    excluded_paths: [vendor/*, storage/*, build/*, cache/*, database/*]
+    excluded_paths:
+        - "vendor/*"
+        - "storage/*"
+        - "build/*"
+        - "cache/*"
+        - "database/*"
 
 build:
     nodes:
