@@ -1,0 +1,16 @@
+imports:
+    - php
+
+filter:
+    excluded_paths:
+        - vendor/*
+        - storage/*
+        - build/*
+        - cache/*
+
+build:
+  nodes:
+    analysis:
+      tests:
+        override:
+          - php-scrutinizer-run
