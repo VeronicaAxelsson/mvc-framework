@@ -23,24 +23,24 @@ class BookController extends Controller
         $data = $this->allBooks();
         return view('/book', $data);
     }
-
-    /**
-     * Add book to table book
-     *
-     * @return \Illuminate\Contracts\View\View
-     */
-    public function addBook()
-    {
-        $book = new Book();
-
-        $book->title = "Flickorna";
-        $book->ISBN = "9789100118679";
-        $book->author = "Emma Cline";
-        $book->img = 'flickorna.jpg';
-
-        $book->save();
-        return view('/book');
-    }
+    // 
+    // /**
+    //  * Add book to table book
+    //  *
+    //  * @return \Illuminate\Contracts\View\View
+    //  */
+    // public function addBook()
+    // {
+    //     $book = new Book();
+    //
+    //     $book->title = "Flickorna";
+    //     $book->ISBN = "9789100118679";
+    //     $book->author = "Emma Cline";
+    //     $book->img = 'flickorna.jpg';
+    //
+    //     $book->save();
+    //     return view('/book');
+    // }
 
     /**
      * Get all books
