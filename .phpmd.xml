@@ -17,6 +17,7 @@
     <exclude-pattern>Exceptions</exclude-pattern>
     <exclude-pattern>Providers</exclude-pattern>
     <exclude-pattern>database</exclude-pattern>
+    <exclude-pattern>myreport.html</exclude-pattern>
 
 
     <rule ref="rulesets/design.xml" />

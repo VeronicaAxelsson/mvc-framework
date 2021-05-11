@@ -11,24 +11,24 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "rollDice",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "getLastRoll",
                 "role": "getter",
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "getSides",
                 "role": "getter",
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 4,
         "nbMethods": 2,
@@ -87,43 +87,43 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "roll",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "values",
                 "role": "getter",
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "graphic",
                 "role": "getter",
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "dice",
                 "role": "getter",
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "sum",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "average",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 7,
         "nbMethods": 4,
@@ -184,14 +184,14 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "graphic",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 2,
         "nbMethods": 2,
@@ -254,40 +254,40 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "getData",
                 "role": "getter",
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "rollDice",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "playComputer",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "resetGame",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "checkWinner",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 6,
         "nbMethods": 5,
@@ -349,40 +349,40 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "rollDice",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "moveDice",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "sumRound",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "newRound",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "getData",
                 "role": "getter",
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 6,
         "nbMethods": 5,
@@ -443,14 +443,14 @@ var classes = [
                 "public": false,
                 "private": true,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "commands",
                 "role": null,
                 "public": false,
                 "private": true,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 2,
         "nbMethods": 2,
@@ -514,7 +514,7 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -577,21 +577,21 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "addBook",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "allBooks",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 3,
         "nbMethods": 3,
@@ -711,14 +711,14 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "roll",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 2,
         "nbMethods": 2,
@@ -783,35 +783,35 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "roll",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "end",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "reset",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "newRound",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 5,
         "nbMethods": 5,
@@ -876,14 +876,14 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "allHighScores",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 2,
         "nbMethods": 2,
@@ -947,7 +947,7 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -1010,28 +1010,28 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "throw",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "newGame",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "newRound",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 4,
         "nbMethods": 4,
@@ -1152,7 +1152,7 @@ var classes = [
                 "public": false,
                 "private": true,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -1325,7 +1325,7 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -1443,7 +1443,7 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -1726,14 +1726,14 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "boot",
                 "role": null,
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 2,
         "nbMethods": 2,
@@ -1796,7 +1796,7 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -1859,7 +1859,7 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -1923,7 +1923,7 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 1,
         "nbMethods": 1,
@@ -1986,14 +1986,14 @@ var classes = [
                 "public": true,
                 "private": false,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            },
+        },
             {
                 "name": "configureRateLimiting",
                 "role": null,
                 "public": false,
                 "private": true,
                 "_type": "Hal\\Metric\\FunctionMetric"
-            }
+        }
         ],
         "nbMethodsIncludingGettersSetters": 2,
         "nbMethods": 2,
@@ -2048,4 +2048,4 @@ var classes = [
         "instability": 1,
         "violations": {}
     }
-]
+    ]

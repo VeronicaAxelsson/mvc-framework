@@ -120,25 +120,57 @@ class Game
     */
     public function checkWinner(): void
     {
+        // if (session("sumComputer") > 21 && session("sumPlayer") > 21) {
+        //     $this->message = "Båda förlorade";
+        // } elseif (session("sumComputer") === session("sumPlayer")) {
+        //     $this->message = "Datorn vinner";
+        //     $this->pointsComputer += 1;
+        // } elseif (session("sumComputer") <= 21 && session("sumPlayer") <= 21) {
+        //     if (session("sumComputer") > session("sumPlayer")) {
+        //         $this->message = "Datorn vinner";
+        //         $this->pointsComputer += 1;
+        //     } else {
+        //         $this->message = "Du vann!!";
+        //         $this->pointsPlayer += 1;
+        //     }
+        // } elseif (session("sumPlayer") <= 21) {
+        //     $this->message = "Du vann!!";
+        //     $this->pointsPlayer += 1;
+        // } else {
+        //     $this->message = "Datorn vinner";
+        //     $this->pointsComputer += 1;
+        // }
         if (session("sumComputer") > 21 && session("sumPlayer") > 21) {
             $this->message = "Båda förlorade";
-        } elseif (session("sumComputer") === session("sumPlayer")) {
+            return;
+        }
+
+        if (session("sumComputer") === 21) {
+            $this->message = "Datorn vinner";
+            $this->pointsPlayer += 1;
+            return;
+        }
+
+        if (session("sumComputer") <= 21 && session("sumPlayer") > 21) {
             $this->message = "Datorn vinner";
             $this->pointsComputer += 1;
-        } elseif (session("sumComputer") <= 21 && session("sumPlayer") <= 21) {
-            if (session("sumComputer") > session("sumPlayer")) {
-                $this->message = "Datorn vinner";
-                $this->pointsComputer += 1;
-            } else {
-                $this->message = "Du vann!!";
-                $this->pointsPlayer += 1;
-            }
-        } elseif (session("sumPlayer") <= 21) {
+            return;
+        }
+
+        if (session("sumComputer") > 21 && session("sumPlayer") <= 21) {
             $this->message = "Du vann!!";
             $this->pointsPlayer += 1;
-        } else {
+            return;
+        }
+
+        if (session("sumComputer") > session("sumPlayer")) {
             $this->message = "Datorn vinner";
             $this->pointsComputer += 1;
+            return;
         }
+
+        $this->message = "Du vann!!";
+        $this->pointsPlayer += 1;
+        return;
     }
 }

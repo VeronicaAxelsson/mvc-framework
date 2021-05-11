@@ -1,4 +1,5 @@
-function loadJSON(filename, callback) {
+function loadJSON(filename, callback)
+{
 
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -13,12 +14,14 @@ function loadJSON(filename, callback) {
 }
 
 
-function equalsHeightOf(node1, node2) {
+function equalsHeightOf(node1, node2)
+{
     var w1 = node1.style.height;
     node2.style.height = w1 + 'px';
 }
 
-function saveSvgAsImage(svg, name, width, height) {
+function saveSvgAsImage(svg, name, width, height)
+{
     width = width || 600;
     height = height || 600;
     var img = new Image(),
