@@ -120,11 +120,11 @@ class Game
     */
     public function checkWinner(): void
     {
-        if (session("sumComputer") === 21) {
-            $this->message = "Datorn vinner";
-            $this->pointsPlayer += 1;
-            return;
-        }
+        // if (session("sumComputer") === 21) {
+        //     $this->message = "Datorn vinner";
+        //     $this->pointsPlayer += 1;
+        //     return;
+        // }
 
         if (session("sumComputer") > 21) {
             if (session("sumPlayer") > 21) {
@@ -144,35 +144,6 @@ class Game
                 return;
             }
         }
-
-        // if (session("sumComputer") > 21 && session("sumPlayer") > 21) {
-        //     $this->message = "Båda förlorade";
-        //     return;
-        // }
-
-        // if (session("sumComputer") === 21) {
-        //     $this->message = "Datorn vinner";
-        //     $this->pointsPlayer += 1;
-        //     return;
-        // }
-
-        // if (session("sumComputer") <= 21 && session("sumPlayer") > 21) {
-        //     $this->message = "Datorn vinner";
-        //     $this->pointsComputer += 1;
-        //     return;
-        // }
-
-        // if (session("sumComputer") > 21 && session("sumPlayer") <= 21) {
-        //     $this->message = "Du vann!!";
-        //     $this->pointsPlayer += 1;
-        //     return;
-        // }
-
-        // if (session("sumPlayer") <= 21 && session("sumComputer") > session("sumPlayer")) {
-        //     $this->message = "Datorn vinner";
-        //     $this->pointsComputer += 1;
-        //     return;
-        // }
 
         $this->message = "Datorn vinner";
         $this->pointsComputer += 1;

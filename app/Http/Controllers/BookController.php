@@ -23,7 +23,7 @@ class BookController extends Controller
         $data = $this->allBooks();
         return view('/book', $data);
     }
-    // 
+    //
     // /**
     //  * Add book to table book
     //  *
